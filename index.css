@@ -1,0 +1,14 @@
+@import '~normalize.css';
+
+/* 默认为0，实际上大部分情况下这些元素都不需要margin、padding，如果手动在项目中进行reset，那无疑增加了冗余代码 */
+ul,
+div,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, /* 英文 */
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans CN", sans-serif;	/* 中文 */
+}
