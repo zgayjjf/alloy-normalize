@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'adduser' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 verbose adduser before first PUT { _id: 'org.couchdb.user:zgayjjf',
+4 verbose adduser   name: 'zgayjjf',
+4 verbose adduser   password: 'XXXXX',
+4 verbose adduser   email: 'zgayjjf@qq.cm',
+4 verbose adduser   type: 'user',
+4 verbose adduser   roles: [],
+4 verbose adduser   date: '2017-01-12T11:34:02.240Z' }
+5 verbose request uri https://registry.npmjs.org/-/user/org.couchdb.user:zgayjjf
+6 verbose request new user, so can't send auth
+7 info attempt registry request try #1 at 19:34:02
+8 verbose request id b3dc411fd86fa8d2
+9 http request PUT https://registry.npmjs.org/-/user/org.couchdb.user:zgayjjf
+10 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=404
+11 info attempt registry request try #2 at 19:34:12
+12 http request PUT https://registry.npmjs.org/-/user/org.couchdb.user:zgayjjf
+13 info retry will retry, error on last attempt: Error: tunneling socket could not be established, statusCode=404
+14 info attempt registry request try #3 at 19:35:12
+15 http request PUT https://registry.npmjs.org/-/user/org.couchdb.user:zgayjjf
+16 verbose request invalidating C:\Users\jeffjing\AppData\Roaming\npm-cache\registry.npmjs.org\-\user\org.couchdb.user_3Azgayjjf on PUT
+17 verbose adduser back [ { Error: tunneling socket could not be established, statusCode=404
+17 verbose adduser       at ClientRequest.onConnect (D:\nvm\v6.9.1\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+17 verbose adduser       at ClientRequest.g (events.js:291:16)
+17 verbose adduser       at emitThree (events.js:116:13)
+17 verbose adduser       at ClientRequest.emit (events.js:194:7)
+17 verbose adduser       at Socket.socketOnData (_http_client.js:395:11)
+17 verbose adduser       at emitOne (events.js:96:13)
+17 verbose adduser       at Socket.emit (events.js:188:7)
+17 verbose adduser       at readableAddChunk (_stream_readable.js:176:18)
+17 verbose adduser       at Socket.Readable.push (_stream_readable.js:134:10)
+17 verbose adduser       at TCP.onread (net.js:548:20) code: 'ECONNRESET' },
+17 verbose adduser   undefined,
+17 verbose adduser   undefined ]
+18 verbose stack Error: tunneling socket could not be established, statusCode=404
+18 verbose stack     at ClientRequest.onConnect (D:\nvm\v6.9.1\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:165:19)
+18 verbose stack     at ClientRequest.g (events.js:291:16)
+18 verbose stack     at emitThree (events.js:116:13)
+18 verbose stack     at ClientRequest.emit (events.js:194:7)
+18 verbose stack     at Socket.socketOnData (_http_client.js:395:11)
+18 verbose stack     at emitOne (events.js:96:13)
+18 verbose stack     at Socket.emit (events.js:188:7)
+18 verbose stack     at readableAddChunk (_stream_readable.js:176:18)
+18 verbose stack     at Socket.Readable.push (_stream_readable.js:134:10)
+18 verbose stack     at TCP.onread (net.js:548:20)
+19 verbose cwd E:\side_pro\alloy-normalize.css
+20 error Windows_NT 10.0.14393
+21 error argv "D:\\nodejs\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "adduser"
+22 error node v6.9.1
+23 error npm  v3.10.8
+24 error code ECONNRESET
+25 error network tunneling socket could not be established, statusCode=404
+26 error network This is most likely not a problem with npm itself
+26 error network and is related to network connectivity.
+26 error network In most cases you are behind a proxy or have bad network settings.
+26 error network
+26 error network If you are behind a proxy, please make sure that the
+26 error network 'proxy' config is set properly.  See: 'npm help config'
+27 verbose exit [ 1, true ]

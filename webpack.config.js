@@ -14,14 +14,11 @@ module.exports = {
     module: {
         loaders: [{
             test: /\.css$/,
-            loader: ExtractWebpackPlugin.extract('style-loader', 'css-loader')
+            loader: ExtractWebpackPlugin.extract('style-loader', 'css-loader' + (env === 'production' ? '?minimize': ''))
         }]
     },
     plugins: [
-        new ExtractWebpackPlugin('[name].css')
+        new ExtractWebpackPlugin('[name].css'),
+        // new webpack.optimize.UglifyJsPlugin()
     ]
 }
-//
-// if (env === 'production') {
-//     module.exports.plugins.push(new webpack.optimize.UglifyJsPlugin())
-// }

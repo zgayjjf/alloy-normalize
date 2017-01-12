@@ -4,13 +4,13 @@
   "description": "An alternative to normalize.css, but more handy and practical.",
   "main": "./dist/alloy-normalize.min.css",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack",
-    "dist": "cross-env NODE_ENV=production webpack -p",
+    "dev": "cross-env NODE_ENV=development webpack --watch",
+    "dist": "cross-env NODE_ENV=production webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/zgayjjf/alloy-normalize.git"
+    "url": "git+ssh://git@github.com/zgayjjf/alloy-normalize.css.git"
   },
   "keywords": [
     "normalize"
@@ -18,9 +18,9 @@
   "author": "zgayjjf",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zgayjjf/alloy-normalize/issues"
+    "url": "https://github.com/zgayjjf/alloy-normalize.css/issues"
   },
-  "homepage": "https://github.com/zgayjjf/alloy-normalize#readme",
+  "homepage": "https://github.com/zgayjjf/alloy-normalize.css#readme",
   "devDependencies": {
     "cross-env": "^3.1.3",
     "css-loader": "^0.26.1",
