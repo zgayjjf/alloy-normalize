@@ -8,21 +8,17 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-/* 大部分都不需要 padding */
 ul, ol {
+    /* 大部分都不需要 padding */
 	padding: 0;
-}
-
-/* 大部分都不需要 list-style */
-ul, ol {
-	list-style-type: none;
+    /* 大部分都不需要 list-style */
+    list-style-type: none;
 }
 
 /* iphone上默认字重太重，设计一般不会采用 */
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
-
 
 /* 如果不是继承，那么将会有更多冗余代码 */
 button,
@@ -31,6 +27,12 @@ optgroup,
 select,
 textarea {
     font-family: inherit;
+}
+
+/* 只覆盖border、outline，不覆盖background，因为background一般会有自定义 */
+button {
+    border: none;
+    outline: none;
 }
 
 /* 使用更好的兼容PC & mobile 的字体 */
