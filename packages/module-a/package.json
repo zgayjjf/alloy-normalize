@@ -1,5 +1,5 @@
 {
-  "name": "test-lerna",
+  "name": "@tencent/test-lerna",
   "version": "0.1.3",
   "description": "An alternative to normalize.css, but more handy and practical.",
   "scripts": {
