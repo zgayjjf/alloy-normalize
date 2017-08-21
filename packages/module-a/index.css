@@ -26,7 +26,7 @@ input,
 optgroup,
 select,
 textarea {
-    font-family: sans-serif;
+    font-family: serif;
 }
 
 /* 只覆盖border、outline，不覆盖background，因为background一般会有自定义 */
