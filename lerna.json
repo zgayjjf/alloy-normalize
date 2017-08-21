@@ -6,5 +6,5 @@
   "npmClient": "tnpm",
   "publishNpmClient": "tnpm",
   "version": "independent",
-  "registry": "r.tnpm.oa.com"
+  "registry": "http://r.tnpm.oa.com"
 }
