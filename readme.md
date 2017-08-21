@@ -8,11 +8,14 @@ An alternative to [normalize.css](https://github.com/necolas/normalize.css/blob/
                   "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans CN", sans-serif; // 中文`
 
 ### Default ZERO margin、padding
-    div
-    ul
-    li
-    p
+    div、ul、li、p、hn
     
+    
+### normal font-weight for heading
+    h1……h6
+    
+### no border & outline for button 
+
 
 
 

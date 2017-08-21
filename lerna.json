@@ -4,5 +4,7 @@
     "packages/*"
   ],
   "npmClient": "tnpm",
-  "publishNpmClient": "tnpm"
+  "publishNpmClient": "tnpm",
+  "version": "independent",
+  "registry": "r.tnpm.oa.com"
 }
