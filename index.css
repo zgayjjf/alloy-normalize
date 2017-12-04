@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
-/* 如果不是继承，那么将会有更多冗余代码 */
+/* 如果字体不是继承，那么将会有更多冗余代码 */
 button,
 input,
 optgroup,
@@ -39,4 +39,9 @@ button {
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, /* 英文 */
     "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans CN", sans-serif;	/* 中文 */
+}
+
+/* a标签一般都会自定义，不需要默认的text-decoration */
+a {
+    text-decoration: none;
 }
