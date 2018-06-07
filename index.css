@@ -1,4 +1,8 @@
-@import '~normalize.css';
+/* 使用更好的兼容PC & mobile 的字体 */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, /* 英文 */
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans CN", sans-serif;	/* 中文 */
+}
 
 /* 默认为0，实际上大部分情况下这些元素都不需要margin、padding，如果手动在项目中进行reset，那无疑增加了冗余代码 */
 p,
@@ -33,12 +37,6 @@ textarea {
 button {
     border: none;
     outline: none;
-}
-
-/* 使用更好的兼容PC & mobile 的字体 */
-body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, /* 英文 */
-    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", "Source Han Sans CN", sans-serif;	/* 中文 */
 }
 
 /* a标签一般都会自定义，不需要默认的text-decoration */

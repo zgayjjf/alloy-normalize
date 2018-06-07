@@ -1,4 +1,4 @@
-# alloy-normalize.css
+# m-normalize
 
 An alternative to [normalize.css](https://github.com/necolas/normalize.css/blob/master/README.md), but more handy and practical.
  

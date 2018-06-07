@@ -1,6 +1,4 @@
 .idea
-dist/alloy-normalize.js
-dist/alloy-normalize.min.js
 node_modules
 *.log
 *.log.*
