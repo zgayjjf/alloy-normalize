@@ -1,6 +1,6 @@
 {
   "name": "m-normalize",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "An alternative to normalize.css, but more handy and practical.",
   "main": "index.css",
   "scripts": {
@@ -13,7 +13,7 @@
   "keywords": [
     "normalize"
   ],
-  "author": "zgayjjf",
+  "author": "jeffjing",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/zgayjjf/m-normalize/issues"
