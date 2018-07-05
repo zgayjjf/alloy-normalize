@@ -1,6 +1,6 @@
 {
   "name": "m-normalize",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "An alternative to normalize.css, but more handy and practical.",
   "main": "index.css",
   "scripts": {
@@ -19,8 +19,6 @@
     "url": "https://github.com/zgayjjf/m-normalize/issues"
   },
   "homepage": "https://github.com/zgayjjf/normalize#readme",
-  "devDependencies": {
-  },
-  "dependencies": {
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
