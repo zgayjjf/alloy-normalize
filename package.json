@@ -4,7 +4,8 @@
   "description": "An alternative to normalize.css, but more handy and practical.",
   "main": "index.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo builded m-normalize"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,7 @@
   },
   "homepage": "https://github.com/zgayjjf/normalize#readme",
   "devDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "axios": "~0.18.0"
+  }
 }
