@@ -13,6 +13,6 @@ pipeline:
     source: ./
     target: ~/normalize
     script:
-      - echo "rsync success"
+      - echo "rsync success1"
     when:
       branch: release
