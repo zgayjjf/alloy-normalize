@@ -5,3 +5,13 @@ pipeline:
       - npm install
       - npm run test
       - npm run build
+  deploy:
+    image: drillster/drone-rsync
+    hosts: ['119.28.114.230']
+    user: ubuntu
+    source: ./
+    target: ~/normalize
+    script:
+      - echo "rsync success"
+    when:
+      branch: release
