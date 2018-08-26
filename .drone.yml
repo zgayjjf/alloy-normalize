@@ -1,4 +1,5 @@
-build:
+pipeline:
+  build:
     image: node:8
     commands:
       - npm install
